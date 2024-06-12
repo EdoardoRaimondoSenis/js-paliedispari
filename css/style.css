@@ -25,7 +25,7 @@ span {
     padding: 10px;
 }
 
-#backrisultato {
+#backrisultatopalind {
     position: relative;
     display: flex;
     align-items: center;
@@ -38,21 +38,45 @@ span {
     margin: 10px 0;
 }
 
-.prisultato {
+#backrisultatopd {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: lightcoral;
+    width: 45rem;
+    height: 10rem;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.prisultatopalind {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prisultatopd {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .risultato {
     color: black;
-    margin: 5px 0;
     padding: 10px;
-    width: 30%;
+    width: 50%;
     background-color: gold;
     box-shadow: 5px 5px blanchedalmond;
     border-radius: 10px;
+    text-align: center;
 }
